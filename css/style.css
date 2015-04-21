@@ -15,18 +15,33 @@
 
 img[src*="minecraft"] {
 	padding-top: 15%;
-	padding-bottom: 25% 
+	padding-bottom: 25%;
+}
+
+.btn {
+	margin: 0 auto;
 }
 
 /* NAVBAR */
 
 .navbar-default {
+	background-color: #000;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 5%;
 }
 
 .navbar-default .navbar-brand:before,
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
+}
+
+/* CAROUSEL CAPTION */
+.carousel-inner {
+	text-align: center;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* FONT ICONS */
